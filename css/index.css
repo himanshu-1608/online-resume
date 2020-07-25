@@ -123,8 +123,9 @@ html {
     font-family: 'Comfortaa', cursive;
 }
 
-#portfolio #random123 {
-    background-image: linear-gradient(to left, #0000FF 0%, #0000FF 100%);
+#portfolio div p,
+li {
+    line-height: 2em;
 }
 
 #skills {
@@ -209,6 +210,10 @@ html {
 
 .project div {
     font-weight: normal;
+}
+
+.project h2 {
+    color: #fcbb03;
 }
 
 .btn_two {
