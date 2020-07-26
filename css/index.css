@@ -54,7 +54,7 @@ html {
 
 #title {
     font-size: 40px;
-    background-image: linear-gradient(to left, #FF416C 0%, #FF4B2B 100%);
+    background-image: linear-gradient(to left, #6cc76e 0%, #6cc76e 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -202,10 +202,18 @@ li {
     margin: 30px 10px;
 }
 
+.btn_one a {
+    color: #6cc76e;
+}
+
 .btn_one:hover {
     background: white;
     cursor: pointer;
-    color: #000;
+    color: #2f4755;
+}
+
+.btn_one:hover a {
+    color: #2f4755;
 }
 
 .project div {
@@ -229,10 +237,18 @@ li {
     margin: 30px 10px;
 }
 
+.btn_two a {
+    color: #2f4755;
+}
+
 .btn_two:hover {
     background: transparent;
     cursor: pointer;
-    color: #fff;
+    color: #6cc76e;
+}
+
+.btn_two:hover a {
+    color: #6cc76e;
 }
 
 #details {
