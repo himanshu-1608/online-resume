@@ -54,7 +54,7 @@ html {
 
 #title {
     font-size: 40px;
-    background-image: linear-gradient(to left, #6cc76e 0%, #6cc76e 100%);
+    background-image: linear-gradient(to left, #00ff00 0%, #00ff00 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -111,7 +111,7 @@ html {
 
 #portfolio div h1 {
     font-size: 40px;
-    background-image: linear-gradient(to left, #0a7bb7 0%, #0a7bb7 100%);
+    background-image: linear-gradient(to left, #04d9c5 0%, #04d9c5 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -131,6 +131,10 @@ li {
 #skills {
     margin: 4vh 0px !important;
     padding: 2vh 0px !important;
+}
+
+#skills .extra {
+    color: #FF4B2B;
 }
 
 #work {
